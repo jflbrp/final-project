@@ -1,0 +1,53 @@
+:root{
+    --small: 1em;
+    --big: 3em;
+    --shadowsettings: 5px 5px 5px #525050
+}
+html{
+    background-color: rgb(184, 140, 75);
+}
+.product{
+    display: flex;
+    margin-bottom: var(--small);
+    
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center  ;
+    border: 1px solid black;
+    flex: 1 1 0;
+    align-items: center;
+    margin: 1em;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: var(--shadowsettings);
+}
+.image{
+    border-radius: 10px;
+    border: 1px solid #a5a0a0;
+    box-shadow: var(--shadowsettings);
+}
+.logo{
+    box-shadow: var(--shadowsettings);
+}
+.sidebar{
+    display: flex;
+    justify-content:left;
+    margin: var(--small);
+}
+.input-form{
+    display: flex;
+    align-items: center;
+    
+}
+.search-input{
+    padding: var(--small); 
+    margin: var(--small); 
+    box-shadow: var(--shadowsettings); 
+    border: 1px solid white
+    
+}
+.search-input:hover{
+    background-color: #c2bfbf;
+}
