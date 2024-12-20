@@ -11,6 +11,11 @@ html{
     margin-bottom: var(--small);
     
 }
+
+.Items{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
 .information{
     display: flex;
     flex-direction: column;
@@ -22,11 +27,13 @@ html{
     border-radius: 10px;
     background-color: #fff;
     box-shadow: var(--shadowsettings);
+    background-color: darksalmon;
 }
 .image{
     border-radius: 10px;
     border: 1px solid #a5a0a0;
     box-shadow: var(--shadowsettings);
+    margin: var(--small);
 }
 .logo{
     box-shadow: var(--shadowsettings);
@@ -51,6 +58,7 @@ html{
 .search-input:hover{
     background-color: #c2bfbf;
 }
-/*.information > *{
-    font-family: Arial, Helvetica, sans-serif;
-} */
+.Items{
+    display: flex;
+}
+    
