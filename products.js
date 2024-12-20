@@ -25,7 +25,6 @@ const products = [
       title: 'wooden table',
       company: 'caressa',
       image: 'https://www.course-api.com/images/store/product-4.jpeg',
-  
       price: 45.99,
     },
     {
@@ -33,8 +32,7 @@ const products = [
       title: 'dining table',
       company: 'caressa',
       image: 'https://www.course-api.com/images/store/product-5.jpeg',
-  
-      price: 6.99,
+    price: 6.99,
     },
     {
       id: 'recNWGyP7kjFhSqw3',

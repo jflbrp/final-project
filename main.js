@@ -2,7 +2,7 @@ console.log(products)
 let filteredProducts = [...products]
 console.log(filteredProducts)
 
-const productsContainer = document.querySelector(".not-sidebar")
+const productsContainer = document.querySelector(".search-and-logo")
 const searchForm = document.querySelector(".input-form")
 const searchInput = document.querySelector(".search-input")
 
@@ -18,7 +18,7 @@ searchForm.addEventListener("keyup", () => {
 
 function displayProducts() {
     productsContainer.innerHTML = filteredProducts.map(product => {
-       return  `<article class="product">
+       return  `<article class="Items">
                     <img src="${product.image}" alt="Placeholder" class="image"/>
                     <footer class="information">
                         <p class="company">${product.company}</p>
